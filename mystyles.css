@@ -1,0 +1,45 @@
+div.container{
+	height:100%;
+	width: 100%;
+	border: 1px solid black;
+}
+header{
+	font-family:verdana;
+	font-size: 40px;
+	padding: 1em;
+	color: white;
+	background-color: black;
+	clear:left;
+	text-align: center;
+}
+footer{
+	font-family:verdana;
+	padding: 1em;
+	color: white;
+	background-color: pink;
+	clear:left;
+	text-align: center;
+}
+nav{
+	float: left;
+	max-width: 270px;
+	margin: 0;
+	padding:1em;
+}
+nav ul{
+	list-style-type: none;
+	padding:0;
+}
+nav ul a{
+	text-decoration:none;
+}
+article{
+	margin-left: 420px;
+	border-left: 1px solid black;
+	padding: 10em;
+	overflow: hidden;
+}
+.mySlides{
+	height:500px;
+	width:600px;
+}
